@@ -11,7 +11,7 @@
   "license": "MIT",
   "main": "handler.js",
   "scripts": {
-    "start": "sls offline start --host 0.0.0.0 --port 5000",
+    "start": "SLS_DEBUG=offline node --inspect=0.0.0.0:9229 --nolazy ./node_modules/.bin/sls offline start --host 0.0.0.0 --port 5000",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
