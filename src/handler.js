@@ -1,6 +1,9 @@
 'use strict';
 
-module.exports.hello = async (event, context) => {
+// NOTICE: importing a module is critical to creating the memory leak
+import _ from 'lodash';
+
+export const hello = async (event, context) => {
   return {
     statusCode: 200,
     body: JSON.stringify({

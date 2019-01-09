@@ -108,4 +108,5 @@ functions:
 #       Value: "Some output value"
 
 plugins:
+  - serverless-webpack
   - serverless-offline

@@ -3,9 +3,14 @@
   "description": "A small PoC on checking memory leak in the serverless local stack",
   "version": "0.0.1",
   "author": "Jaydeep Solanki <jaydp17@gmail.com> (https://jaydp.com)",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
   "devDependencies": {
     "serverless": "^1.35.1",
-    "serverless-offline": "^3.32.1"
+    "serverless-offline": "^3.32.1",
+    "serverless-webpack": "^5.2.0",
+    "webpack": "^4.28.1"
   },
   "keywords": [],
   "license": "MIT",
