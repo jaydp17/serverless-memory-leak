@@ -1,0 +1,17 @@
+{
+  "name": "serverless-memory-leak",
+  "description": "A small PoC on checking memory leak in the serverless local stack",
+  "version": "0.0.1",
+  "author": "Jaydeep Solanki <jaydp17@gmail.com> (https://jaydp.com)",
+  "devDependencies": {
+    "serverless": "^1.35.1",
+    "serverless-offline": "^3.32.1"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "main": "handler.js",
+  "scripts": {
+    "start": "sls offline start --host 0.0.0.0 --port 5000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
